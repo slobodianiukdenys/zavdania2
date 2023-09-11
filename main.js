@@ -1,8 +1,8 @@
 let number = 15
-let NaN = NaN 
+let a = NaN 
 let Text = "Hello"
 let TrueFalse = true
-let undefined = undefined
+let b = undefined
 
 let Me = {
     Name: "Denys",
@@ -11,5 +11,5 @@ let Me = {
     Town: "Tlumach"
 }
 
-console.log(number, NaN, Text, TrueFalse, undefined)
+console.log(number, a, Text, TrueFalse, b)
 console.table(Me)
